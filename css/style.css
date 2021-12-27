@@ -469,8 +469,17 @@ li {
   }
   .contact__content {
     flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .contact__left {
     justify-content: center;
     align-items: center;
+  }
+
+  .contact__right {
+    justify-content: flex-start;
+    align-items: flex-start;
   }
 
   .inputBox input,
