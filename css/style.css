@@ -9,20 +9,6 @@
 }
 
 :root {
-  /* 
-    1.
-    pp=> #2c3531 
-    second / words=> #116466
-    
-    2.
-    pp => #272727
-    sec =>#14a76c
-    
-    original: 
-    pp=> #000
-    sec => #fff
-    
-  */
   --fs-thin: 100;
   --fs-light: 300;
   --fs-regular: 400;
@@ -46,20 +32,21 @@ body {
   color: var(--clr-secondary);
   font-size: 20px;
 }
+html {
+  scroll-behavior: smooth;
+}
 
 img {
   width: 100%;
 }
 section {
   padding: 4rem 1rem;
-  /* border: 2px solid black; */
 }
 
 .container {
   width: 90%;
   max-width: 1100px;
   margin: auto;
-  /* border: 2px solid red; */
 }
 
 /* UTILITY CLASS */
@@ -96,9 +83,7 @@ a {
   cursor: pointer;
   color: var(--clr-secondary);
 }
-li:hover {
-  color: var(--clr-accent);
-}
+
 li {
   list-style-type: none;
 }
@@ -145,7 +130,7 @@ li {
 
 .banner-image {
   background: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.4)),
-    url("/img/highway-large-size.jpg") no-repeat center center;
+    url("/img/highway-large-size.jpg") no-repeat center center/cover;
   height: 100vh;
 }
 
@@ -164,6 +149,10 @@ li {
   justify-content: center;
   align-items: center;
   gap: 3em;
+}
+
+.nav-links:hover {
+  color: var(--clr-accent);
 }
 
 .banner-text {
