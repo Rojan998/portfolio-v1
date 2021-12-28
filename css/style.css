@@ -357,6 +357,20 @@ li {
   color: var(--clr-accent);
 }
 
+/* THank you page */
+.thank-you__image {
+  background: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.4)),
+    url("/img/thankyou.jpg") no-repeat center center/cover;
+  height: 100vh;
+}
+
+.thank-you .heading {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
 /* media query for timeline */
 @media (min-width: 768px) {
   .timeline::before {
