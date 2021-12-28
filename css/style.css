@@ -191,9 +191,6 @@ li {
   align-items: center;
   gap: 2rem;
 }
-.about-me__my_image {
-  border: 2px solid white;
-}
 
 .about-me__description {
   /* width: 50%; */
