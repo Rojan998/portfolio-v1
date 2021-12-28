@@ -406,29 +406,29 @@
         <div class="contact__left">
           <p class="text-md">Get In Touch</p>
 
-          <form class="contact__form">
+          <form class="contact__form" action="https://formsubmit.co/4a33ab61c288bcc835c0e3fce9d2b30b" method="POST">
 
             <div class="inputBox">
-              <input type="text" name="user-name" id="" placeholder="Your Name">
+              <input type="text" name="user-name" id="user-name" placeholder="Your Name" required>
             </div>
 
             <div class="inputBox">
-              <input type="email" name="use-email" id="" placeholder="Your Email">
+              <input type="email" name="use-email" id="user-email" placeholder="Your Email" required>
             </div>
 
             <div class="inputBox">
-              <input type="text" name="user-phone" id="" placeholder="Your Phone">
+              <input type="text" name="user-phone" id="user-phone" placeholder="Your Phone" required>
             </div>
 
 
 
             <div class="inputBox">
-              <textarea type="text" name="message" id="" placeholder="Write a Message"></textarea>
+              <textarea type="text" name="message" id="message" placeholder="Write a Message" required></textarea>
 
             </div>
 
             <div class="button">
-              <a href="#" class="btn btn-primary">Send Message</a>
+              <button class="btn btn-primary" type="submit">Send Message</button>
             </div>
 
           </form>
@@ -490,6 +490,8 @@
 
   <!-- LINK TO JAVASCRIPT -->
   <script src="/js/script.js"></script>
+
+
 </body>
 
 </html>

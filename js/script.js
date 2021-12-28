@@ -1,2 +1,1 @@
-// For the Typing Effect
-// Silence is Golden
+// Silence is golden
