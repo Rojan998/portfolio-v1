@@ -32,6 +32,7 @@ body {
   color: var(--clr-secondary);
   font-size: 20px;
 }
+
 html {
   scroll-behavior: smooth;
 }
@@ -39,6 +40,7 @@ html {
 img {
   width: 100%;
 }
+
 section {
   padding: 4rem 1rem;
 }
@@ -87,10 +89,12 @@ a {
 li {
   list-style-type: none;
 }
+
 .heading {
   margin-bottom: 3rem;
   text-align: center;
 }
+
 .button {
   display: flex;
   justify-content: center;
@@ -110,10 +114,12 @@ li {
   border-radius: 12px;
   color: #fff;
 }
+
 .btn-primary {
   color: black;
   background-color: var(--clr-accent);
 }
+
 .btn-primary:hover {
   background-color: hsl(97, 82%, 53%);
 }
@@ -126,6 +132,7 @@ li {
 .btn-secondary:hover {
   background-color: hsl(0, 5%, 75%);
 }
+
 /* Banner  Image */
 
 .banner-image {
@@ -197,6 +204,9 @@ li {
   max-width: 1100px;
   margin: auto;
 }
+
+
+
 
 /* My Technologies */
 
@@ -273,6 +283,7 @@ li {
   border-radius: 10px;
   margin-bottom: 20px;
 }
+
 .timeline ul li:last-child {
   margin-bottom: 0;
 }
@@ -304,6 +315,7 @@ li {
   align-items: flex-start;
   gap: 3em;
 }
+
 .contact__left {
   top: 0;
   width: 60%;
@@ -319,6 +331,7 @@ li {
   justify-content: flex-start;
   align-items: flex-start;
 }
+
 .inputBox {
   width: 100%;
 }
@@ -343,9 +356,11 @@ li {
   padding: 5rem;
   text-align: center;
 }
+
 .heart {
   color: red;
 }
+
 .social-medias {
   display: flex;
   justify-content: center;
@@ -353,6 +368,7 @@ li {
   gap: 4rem;
   font-size: 4rem;
 }
+
 .social-medias li i:hover {
   color: var(--clr-accent);
 }
@@ -394,6 +410,7 @@ li {
     clear: right;
     transform: translateX(-70px);
   }
+
   .timeline ul li:nth-child(even) {
     float: right;
     clear: left;
@@ -436,6 +453,7 @@ li {
   .header {
     display: none;
   }
+
   .banner-text__h3,
   .banner-text__user-name,
   .banner-text__info {
@@ -457,6 +475,7 @@ li {
     justify-content: center;
     align-items: center;
   }
+
   .project__image {
     display: none;
   }
@@ -467,11 +486,13 @@ li {
     justify-content: center;
     flex-wrap: wrap;
   }
+
   .contact__content {
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
   }
+
   .contact__left {
     justify-content: center;
     align-items: center;
